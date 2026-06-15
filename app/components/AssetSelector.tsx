@@ -44,7 +44,7 @@ export function AssetSelector({ currentSymbol, tickerData, isConnected, onLoadAs
                 placeholder="Enter symbol (BTC, ETH...)"
                 value={inputSymbol}
                 onChange={(e) => setInputSymbol(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleLoad()}
+                onKeyDown={(e) => e.key === 'Enter' ...}
                 className="pl-10 bg-slate-800 border-slate-600 text-white placeholder:text-slate-500 font-mono"
               />
             </div>
