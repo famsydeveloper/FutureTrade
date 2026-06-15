@@ -184,7 +184,7 @@ export function OrderForm({ symbol, currentPrice, availableBalance, onPlaceOrder
               type="number"
               placeholder="0.00"
               value={quantity}
-              onChange={(e) => setQuantity(e.target.value)}
+              onChange={(e: any) => setQuantity(e.target.value)}
               className="bg-[#0b0e11] border-[#2b3139] text-white font-mono pr-16 focus:border-[#f0b90b]"
             />
             <div className="absolute right-2 top-1/2 -translate-y-1/2 flex gap-1">
